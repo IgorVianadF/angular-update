@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+//variables
+$primary: #09090b;
+$secondary: #18181b;
+$primary-background: #27272a;
+$text-primary: greenyellow;
+
+*{
+margin: 0px;
+padding: 0px;
+border: 0px;
+text-decoration: none;
+color:$text-primary;
+}
+
+
+body{
+    height: 100vh;
+    margin: 0px;
+    max-width: 100%;
+}
+html{
+    height: 100vh;
+    max-width: 100%;
+}

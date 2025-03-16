@@ -1,0 +1,9 @@
+@use '../../../styles.scss' as global;
+
+.body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: global.$primary-background;
+}

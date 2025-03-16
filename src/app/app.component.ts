@@ -6,8 +6,7 @@ import { HomeComponent } from "./components/home/home.component";
   selector: 'app-root',
   imports: [RouterOutlet, HomeComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
-  // template:`<div class="red-text">Hello World Angular {{name}} is here</div>`
+  styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'first-steps-angular';
