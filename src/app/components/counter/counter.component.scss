@@ -1,0 +1,17 @@
+@use '../../../styles.scss' as global;
+
+span{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+span>button{
+    cursor: pointer;
+    padding: 0.5em 1em;
+    background: global.$secondary;
+    border-radius: 0.2em;
+}
