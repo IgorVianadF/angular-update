@@ -1,0 +1,8 @@
+@use '../../../styles.scss' as global;
+
+#fact{
+    max-width: 50%;
+    background-color: global.$secondary;
+    padding: 2em;
+    border-radius: 0.2rem;
+}
